@@ -1,7 +1,7 @@
-puts "What's your first name?"
+puts 'What is your first name?'
 first_name = gets.chomp
 
-puts "What's your growth?"
+puts 'What is your growth?'
 growth = gets.chomp.to_i
 
 weight = (growth - 110) * 1.15
