@@ -1,12 +1,12 @@
 sides = []
 
-puts "Enter a"
+puts 'Enter a'
 sides << gets.chomp.to_i
 
-puts "Enter b"
+puts 'Enter b'
 sides << gets.chomp.to_i
 
-puts "Enter c"
+puts 'Enter c'
 sides << gets.chomp.to_i
 
 sides.sort!
