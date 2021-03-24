@@ -9,7 +9,7 @@ sides << gets.chomp.to_i
 puts 'Enter c'
 sides << gets.chomp.to_i
 
-sides.sort!
+a, b, hypo = sides.sort
 
 if sides[0]**2 + sides[1]**2 == sides[2]**2
   puts "triangle is right"
